@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=oswald');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html {
+
+width: 100%;
+    
+    body {
+        
+        margin: 0 auto ;
+        max-width: 980px;
+        header{
+            
+          background: url('img/header.jpg') no-repeat;
+          background-size: cover ;
+
+            nav {
+                
+                display: flex;
+                justify-content: flex-end;
+                font-family: "Montserrat";
+                flex-direction: row;
+                margin:0% 10%;
+                
+               
+                a{
+                text-decoration: none;
+                color:white;
+                font-size: 20px;
+                padding: 10px 15px; 
+                text-transform: uppercase;
+
+                &:hover{
+
+                background:rgb(187, 44, 42);
+                }
+                
+                } 
+
+
+
+            }
+            img {
+                width: 100%;
+                height: auto;
+                visibility: hidden;
+            }
+        } 
+    }
+  
+
+ 
+  
+}
